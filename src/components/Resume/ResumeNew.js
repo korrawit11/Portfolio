@@ -6,7 +6,7 @@ import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `https://github.com/korrawit11/Portfolio/blob/69c8950472c935c3051abad678838f1ca800727f/public/CV.pdf`;
+pdfjs.GlobalWorkerOptions.workerSrc = `https://drive.google.com/drive/my-drive`;
 
 const resumeLink =
   "CV.pdf"
