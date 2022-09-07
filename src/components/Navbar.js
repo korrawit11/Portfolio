@@ -80,6 +80,7 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/resume"
+                targer="_blank"
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
